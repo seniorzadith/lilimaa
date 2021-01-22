@@ -1,0 +1,27 @@
+fragment Post on Post {
+  stage
+  remoteId: id
+  createdAt
+  updatedAt
+  publishedAt
+  titulo
+  slug
+  fecha
+  textoSimple
+  texto {
+    ... on RichText {
+      raw
+      html
+      markdown
+      text
+    }
+  }
+  imagenAlfa {
+    ... on Asset {
+      remoteTypeName: __typename
+      remoteId: id
+      locale
+    }
+  }
+  proyectoOPrograma
+}

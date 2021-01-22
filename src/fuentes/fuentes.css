@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "isidora-bold";
+  src: url("./isidora-bold.woff");
+} 
+@font-face {
+  font-family: "isidora-light";
+  src: url("./isidora-light.woff");
+}
+@font-face {
+  font-family: "Karu-ExtraLight";
+  src: url("./Karu-ExtraLight.woff");
+}
+@font-face {
+  font-family: "Karu-ExtraLightItalic";
+  src: url("./Karu-ExtraLightItalic.woff");
+}
+@font-face {
+  font-family: "Karu-Regular";
+  src: url("./Karu-Regular.woff");
+}
+@font-face {
+  font-family: "Melissa-Regular";
+  src: url("./Melissa-Regular.otf");
+}
+@font-face {
+  font-family: "Miss Hippie Sans";
+  src: url("./Miss Hippie Sans.woff");
+}
+@font-face {
+  font-family: "ModernMagic-Regular";
+  src: url("./ModernMagic-Regular.woff");
+}
+@font-face {
+  font-family: "Seashore";
+  src: url("./Seashore.woff");
+}
+
+ 
