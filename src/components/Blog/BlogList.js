@@ -13,6 +13,7 @@ query{
         slug
         id
         fecha
+        proyectoOPrograma
         textoSimple
         texto{
 					html
@@ -37,8 +38,7 @@ const BlogList = () => {
   const { posts } = useStaticQuery(getPosts)
 
   return (
-    <section >
-      <p className={styles.blog}>Díseño y realización de personajes; vestuario; escenografía; diseño gráfico e ilustración para teatro de títeres, lambe lambe y otros programas y proyectos comunicacionales</p>
+    <section >      
       <div className={styles.center}>
         {posts.edges.map(({ node }) => {
           return <BlogCard key={node.id} blog={node} />

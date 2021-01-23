@@ -1,6 +1,7 @@
 .blog {
     box-shadow: var(--lightShadow);
     transition: var(--mainTransition);
+    padding: 1rem;
   }
   .blog:hover {
     box-shadow: var(--darkShadow);
@@ -41,13 +42,13 @@
     opacity: 1;
   }
   
-  .footer {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .footer {    
     text-align: left;
   }
-  .footer h3 {
-    text-transform: capitalize;
+  .titulo{
+    text-transform: uppercase;
+  }
+  .footer h3 {    
     margin-top: 1.5rem;
     margin-bottom:1rem;
     

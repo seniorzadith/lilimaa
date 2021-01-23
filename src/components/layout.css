@@ -84,6 +84,7 @@ blockquote{
     /*border-left: 3px solid #ccc;*/ 
 }
 .titulo {
+  font-family: "Melissa-Regular", script !important;
   text-transform: uppercase ;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 1rem;
@@ -93,9 +94,17 @@ blockquote{
 
 }
 .italica {
-  font-style: italic;
-  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;;
+  font-style: italic;  
   margin-bottom: 1rem;
+}
+.introblog{
+  margin-top: 1.5rem;;
+  padding: 0 8rem;
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align: center;
+
 }
 
 

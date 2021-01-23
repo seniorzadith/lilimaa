@@ -8,7 +8,7 @@ export default function NavbarHeader({ handleNavbar }) {
   return (
     <HeaderWrapper>
       <Link to="/">
-        <img src={logo} height="35px" alt="Personajes" />
+        <img src={logo} height="35px" alt="Lilian Maa'Dhoor" />
       </Link>
       <FaAlignRight
         className="toggle-icon"

@@ -35,12 +35,12 @@ export default class NavbarLinks extends Component {
         {this.state.links.map(item => {
           return (
             <li key={item.id}>
-              <AniLink fade to={item.path} className="nav-link">
+              <AniLink fade to={item.path} duration={2} className="nav-link">
                 {item.name}
               </AniLink>
             </li>
           )
-        })}
+        })} 
       </LinkWrapper>
     )
   }

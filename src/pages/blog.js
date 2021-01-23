@@ -9,7 +9,9 @@ const blog = ({ data }) => {
     <Layout>      
       <PageHeader img={img}>
         <Banner title="proyectos" subtitle="1980 / 2020" />
-      </PageHeader>   
+        
+      </PageHeader>
+      <p className="introblog">Díseño y realización de personajes; vestuario; escenografía; diseño gráfico e ilustración para teatro de títeres, lambe lambe y otros programas y proyectos comunicacionales</p>   
       <BlogList/>
     </Layout>
   )
