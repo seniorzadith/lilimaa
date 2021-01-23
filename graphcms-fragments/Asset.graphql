@@ -17,5 +17,11 @@ fragment Asset on Asset {
       remoteId: id
     }
   }
+  imagenBetaPost {
+    ... on Post {
+      remoteTypeName: __typename
+      remoteId: id
+    }
+  }
   url
 }

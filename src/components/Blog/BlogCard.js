@@ -11,7 +11,7 @@ const BlogCard = ({ blog }) => {
       <div className={styles.imgContainer}>
         <Image fluid={imagenAlfa.localFile.childImageSharp.fluid} className={styles.img} alt="ejemplo" />
         <AniLink fade className={styles.link} to={`/blog/${slug}`}>
-          más información
+          más datos
         </AniLink>
         <h6 className={styles.date}>{fecha}</h6>
       </div>

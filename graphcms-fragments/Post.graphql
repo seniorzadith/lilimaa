@@ -24,4 +24,11 @@ fragment Post on Post {
     }
   }
   proyectoOPrograma
+  imagenBeta {
+    ... on Asset {
+      remoteTypeName: __typename
+      remoteId: id
+      locale
+    }
+  }
 }

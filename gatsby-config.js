@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Tatili`,
-    description: `Creación de personajes articulados para cualquier técnica de teatro de títeres, teatro, stop motion y lambe lambe`,
-    author: `Smilga + Peli`,
+    title: `Lilian Maa'Dhoor`,
+    description: `Creación de personajes articulados, vesstuario y escenografía para cualquier técnica de teatro de títeres, teatro, stop motion y lambe lambe`,
+    author: `Peli`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,6 +24,7 @@ module.exports = {
         buildMarkdownNodes: true,
       },
     },
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

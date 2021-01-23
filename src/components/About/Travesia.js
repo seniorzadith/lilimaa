@@ -40,18 +40,18 @@ export default function Travesia () {
             const img3 = data.img3.childImageSharp.fluid
             return (  
                 <Section>
-                    <Title message="Alguien llegó a mi vida y se quedó para siempre" title="cuento corto" />
+                    <Title message="Llegaron a mi vida y se quedaron para siempre" title="los títeres" />
                     <TravesiaWrapper>
                         <div className="item item-1">
                             <Img fluid={img1} />                            
                         </div>  
-                        <p className="text">
-                            Desde hace décadas creo y realizo toda clase de personajes articulados para cualquier técnica de teatro de títeres y teatro.</p> 
+                        <p className="parrafo">
+                            Desde hace décadas creo y realizo toda clase de personajes, vestuario y escenografía para cualquier técnica de teatro de títeres y teatro. He formado parte de alguna compañías de teatro de títeres con las que hemos presentado obras en festivales en muchos países del mundo. Gracias a UNESCO hice una estadía en Indonesia para aproximarme al teatro de sombras.</p> 
                         <div className="item item-1">
                             <Img fluid={img2} />                            
                         </div>             
-                        <p className="text">  
-                            Recientemente creo y realizo cajas lambe lambe y pronto ofreceré creación de personajes para stop motion y animación 2D.
+                        <p className="parrafo">  
+                            Desde hace décadas creo y realizo toda clase de personajes, vestuario y escenografía para cualquier técnica de teatro de títeres y teatro. He formado parte de alguna compañías de teatro de títeres con las que hemos presentado obras en festivales en muchos países del mundo. Gracias a UNESCO hice una estadía en Indonesia para aproximarme al teatro de sombras. Recientemente creo y realizo cajas lambe lambe y pronto ofreceré creación de personajes para stop motion y animación 2D.
                         </p>
                         <div className="item item-1">
                             <Img fluid={img3} />                            
