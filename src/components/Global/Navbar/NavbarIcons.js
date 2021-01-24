@@ -8,7 +8,7 @@ export default class NavbarIcons extends Component {
       {
         id: 1,
         icon: <FaFacebook className="icon facebook-icon" />,
-        path: `https://www.facebook.com`,
+        path: `https://www.facebook.com/lilianmaadhoor`,
       },
       {
         id: 2,
@@ -18,7 +18,7 @@ export default class NavbarIcons extends Component {
       {
         id: 3,
         icon: <FaInstagram className="icon instagram-icon" />,
-        path: `https://www.instagram.com`,
+        path: `https://www.instagram.com/@lilian_maadhoor`,
       },
     ],
   }
